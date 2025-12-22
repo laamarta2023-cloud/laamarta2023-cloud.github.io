@@ -57,12 +57,39 @@ body {
 }
 
 
-/* メイン画像 */
+/* トップ画像 */
+.hero {
+  position: relative;
+}
+
 .hero img {
   width: 100%;
   height: auto;
   display: block;
+  filter: brightness(0.85);
 }
+
+/* 文字共通 */
+.hero-text {
+  position: absolute;
+  left: 22%; /* ナビと同じライン感 */
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+/* 左上 */
+.hero-top {
+  top: 18%;
+  font-size: 20px;
+}
+
+/* 左下 */
+.hero-bottom {
+  bottom: 25%;
+  font-size: 22px;
+}
+
 
 /* セクション共通 */
 .section {
