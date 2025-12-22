@@ -11,16 +11,45 @@ body {
 }
 
 /* ヘッダー */
-.header {
-  padding: 16px;
-  text-align: center;
+.site-header {
+  background: #ffffff;
+  border-bottom: 1px solid #ddd;
 }
 
-.logo {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
+.nav-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 16px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.logo a {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000;
+}
+
+.global-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+.global-nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+.global-nav a:hover {
+  opacity: 0.7;
+}
+
 
 /* メイン画像 */
 .hero img {
