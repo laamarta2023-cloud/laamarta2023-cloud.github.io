@@ -283,3 +283,33 @@ th {
   font-size: 14px;
   color: #444;
 }
+
+.access {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  gap: 10px;
+
+  max-width: 900px;   /* コンテンツの最大幅 */
+  margin: 0 auto;      /* 中央寄せ */
+  padding: 0 20px;     /* 端にくっつかない余白 */
+}
+
+.access-text {
+  flex: 1;
+}
+
+.access-image {
+  flex: 1;
+}
+
+.access-image img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .access {
+    flex-direction: column;
+  }
+}
