@@ -33,6 +33,11 @@ body {
   color: #000;
 }
 
+.quote {
+  font-style: italic;   /* 斜体 */
+  color: #555;          /* 色変える */
+}
+
 .logo img {
   width: 32px;
   height: 32px;
